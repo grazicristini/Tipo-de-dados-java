@@ -6,7 +6,7 @@ public class Variaveis {
         soma = x + y;
 
         System.out.println("Voce tem \n" + x);
-        System.out.println("Voce tambem tem \n" + x);
+        System.out.println("Voce tambem tem \n" + y);
         System.out.println("A soma deles são \n" + soma);
     
     }
