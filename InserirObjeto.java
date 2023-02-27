@@ -6,7 +6,7 @@ public class InserirObjeto {
         Scanner input = new Scanner(System.in);
         int base, altura, area;
 
-        System.out.println("Informe o valor da base: ");
+        System.out.println("Informe o valor da base: "); //(println)intoduzir um dado
         base = input.nextInt();
 
         System.out.println("Informe o valor da altura: ");
