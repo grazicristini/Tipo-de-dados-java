@@ -17,6 +17,6 @@ public class SomaDeNumeros {
 
         System.out.printf("Seu primeiro número foi = " + n1);
         System.out.printf("\n Seu segundo número foi = " + n2);
-        System.out.printf("\n A soma dos dois números" + soma + "\n");
+        System.out.printf("\n A soma dos dois números = " + soma + "\n");
     }
 }
