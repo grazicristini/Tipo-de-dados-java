@@ -17,6 +17,18 @@ public class MediaDeNotas {
         System.out.printf("A primeira nota foi = " + n1);
         System.out.printf("\n Segunda nota foi = " + n2);
         System.out.printf("\n Sua média é = " + media + "\n");
+
+        if (media >= 8 && media <= 10)
+        {
+            System.out.print("Aluno está Aprovado \n");
+            
+        } else if (media >= 5 && media <= 7){
+            System.out.print("Aprovado, mas terá que fazer recuperação \n");
+        } else if  (media >= 0 && media <= 4){
+            System.out.print("Aluno está Reprovado \n");
+        }else{
+            System.out.print("Erro na média \n");
+        }
     }
 }
 
