@@ -13,9 +13,9 @@ public class exercicio1 {
         {
             System.out.println("Número positivo");
         }else if (n1 < 0){
-            System.out.println("Número negativo");
+            System.out.println("Número negativo \n");
         }else {
-            System.out.println("Número É 0");
+            System.out.println("Número É 0 \n");
         }
     }
 }
