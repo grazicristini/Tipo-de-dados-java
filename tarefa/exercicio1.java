@@ -14,14 +14,15 @@ public class exercicio1 {
 
         if (SalarioAtual > 1000 && SalarioAtual < 2000) {
             SalarioNovo = SalarioAtual * 1.15 ;
-            System.out.println("Seu novo salário é:  \n");
+            System.out.println("Seu novo salário é:  \n" + SalarioNovo);
             
-
         }else if (SalarioAtual > 2000 && SalarioAtual < 3000) {
             SalarioNovo = SalarioAtual * 1.10;
+            System.out.println("Seu novo salário é:  \n" + SalarioNovo);
 
         }else if (SalarioAtual > 2000 && SalarioAtual < 3000) {
             SalarioNovo = SalarioAtual * 1.05;
+            System.out.println("Seu novo salário é:  \n" + SalarioNovo);
         }
     }
 }
