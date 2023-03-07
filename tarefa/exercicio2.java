@@ -16,21 +16,27 @@ public class exercicio2 {
 
         imc = Peso / (Altura * Altura);
 
-        if (Peso < 18,5)
+        if (imc < 18.5)
         {
             System.out.print("Abaixo do Peso \n");
-        } else if (idade >= 13 && idade <= 17){
-            System.out.print("Adolescente \n");
-        } else if (idade >= 18 && idade <= 59){
-            System.out.print("Adulto \n");
-        } else if (idade > 60){
-            System.out.print("idoso \n");
+        } else if (imc >= 18.5 && Peso <=24.9){
+            System.out.print("Peso Normal \n");
+        } else if (imc >= 25.0 && imc <= 29.9){
+            System.out.print("Sobrepeso \n");
+        } else if (imc >= 30.0 && imc <= 34){
+            System.out.print("Opesidade grau 1 \n");
+        } else if (imc >= 35.0 && imc <= 39.9){
+            System.out.print("Obesidade Grau 2 \n");
+        } else if (imc > 40.0){
+            System.out.print("Obesidade grau 3 (mórbida) \n");
         }
+
 
 
         System.out.printf("Seu peso é: " + Peso + "\n");
         System.out.printf("\n Sua altura é: " + Altura + "\n");
+        System.out.printf("\n" + imc + "\n");
 
-        
+
     }
 }
