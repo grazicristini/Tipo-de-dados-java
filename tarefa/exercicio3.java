@@ -13,6 +13,6 @@ public class exercicio3 {
 
         c = m * 100;
 
-        System.out.printf("convertido para cm " + c + "\n");
+        System.out.printf("\n Convertido para cm é:" + c + "\n");
     }
 }

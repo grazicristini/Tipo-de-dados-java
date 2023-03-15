@@ -19,12 +19,12 @@ public class exercicio4 {
         idade2 = input.nextInt();
 
         if (idade1 > idade2){
-            System.out.println("Pessoa mais velha é a \n" + n1 + "\n" );
-            System.out.println("Sua idade é \n" + idade1 + "\n" );
+            System.out.println("\n A pessoa mais velha é a \n" + n1 + "\n" );
+            System.out.println("\n Sua idade é \n" + idade1 + "\n" );
 
         }else if (idade2 > idade1){
-            System.out.print("Pessoa mais velha é a \n" + n2 + "\n");
-            System.out.println("Sua idade é \n" + idade1 + "\n" );
+            System.out.print(" \n A pessoa mais velha é a \n" + n2 + "\n");
+            System.out.println(" \n Sua idade é \n" + idade2 + "\n" );
 
         }
     }
