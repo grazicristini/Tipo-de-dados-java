@@ -32,7 +32,7 @@ public class exercicio2 {
         }
 
 
-        System.out.printf("Seu peso é: " + Peso + "\n");
+        System.out.printf("\n Seu peso é: " + Peso + "\n");
         System.out.printf("\n Sua altura é: " + Altura + "\n");
         System.out.printf("\n" + imc + "\n");
 
