@@ -24,7 +24,7 @@ public class exercicio2 {
         } else if (imc >= 25.0 && imc <= 29.9){
             System.out.print("Sobrepeso \n");
         } else if (imc >= 30.0 && imc <= 34){
-            System.out.print("Opesidade grau 1 \n");
+            System.out.print("Obesidade grau 1 \n");
         } else if (imc >= 35.0 && imc <= 39.9){
             System.out.print("Obesidade Grau 2 \n");
         } else if (imc > 40.0){
